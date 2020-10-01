@@ -1,8 +1,6 @@
-x = True
-y = False 
-print(x and y)
-print(x or y)
-print(not x)
-print(not y)
-print(y and x)
-print(y or x)
+a = True
+b = False
+print( a and b,"   ",a or b,"    ",not a)
+print( b and a,"   ",b or a,"    ",not b)
+print( a and a,"    ",a or a,"    ",not a)
+print( b and b,"   ",b or b,"   ",not b)
